@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Restaurant Locator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+ <h1 class="bg-dark h3 text-white text-center p-2" id="heading">
+         <img style="left:0;" class="logo" src="img/marker3.png" alt="" srcset="">
+        Restaurant locator
+        <img style=" right:0;" class="logo" src="img/marker3.png" alt="" srcset="">
+      </h1>
+  </header>
+     
+  <section class="container"> 
+      <div class="row " >
+          <div class=" col-md-8 " id="map"></div>
+          <div class=" col-md-3 p-4 ml-md-1  text-white font-weight-bold restaurants" >
+              <h3 class="h5 ">Restaurants near you</h3>
+             <form id="restaurant-form" action="">
+                   <select id="restaurant-filter" class="custom-select custom-select-sm ">
+                          <option selected>Filter Restaurants </option>
+                          <option  class="restaurant-groups" value="0">all stars</option>
+                          <option class="restaurant-groups" value="1">1-2 stars</option>
+                          <option class="restaurant-groups" value="2">2-3 stars</option>
+                          <option class="restaurant-groups" value="3">3-4 stars</option>
+                          <option class="restaurant-groups" value="4">4-5 stars</option>
+                    </select>
+              </form>  
+              <div id="restaurant-list" >
+
+              </div>  
+          </div>
+      </div>
+</section>
+
+<!-- Start of Modal -->
+<div class="modal " id="reviewModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header title">
+        <h5 class="modal-title " id="reviewModalLabel">Add a new review</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" hidden class="form-control" id="feature-id">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Comment:</label>
+            <textarea class="form-control" id="review-text" required></textarea>
+          </div>
+           <label for="message-text" class="col-form-label">Give star(s):</label>
+           <select id="review-stars" class="custom-select custom-select-sm" required>
+              <option selected>Choose star(s) </option>
+              <option class="restaurant-groups" value="1">1 stars</option>
+              <option class="restaurant-groups" value="2">2 stars</option>
+              <option class="restaurant-groups" value="3">3 stars</option>
+              <option class="restaurant-groups" value="4">4 stars</option>
+              <option class="restaurant-groups" value="5">5 stars</option>
+            </select>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" id="submit-review" class="btn btn-primary">Submit Review</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of modal -->
+<!-- Start of feedback container -->
+<div id="feedback" class="alert  font-weight-bold hidden col-md-6" role="alert">
+  Action Successful<br>
+<img class="loading-gif" src='https://media.tenor.com/images/cbae2dfd31aa5ec2fcb7f46b65e1550f/tenor.gif' alt="" srcset="">
+</div>
+<!-- End of feedback container -->
+<!-- App scripts -->
+ <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYoyXksTGzLnjJoSolEDmjQf53Ugt-6Rs&libraries=places"></script>
+<!-- Custom js -->
+    <script src="main.js"></script>
+    <script src="styles.js"></script> 
+    <script src="map.js"></script>
+    <script src="restaurant.js"></script>
+    <script src="functions.js"></script>
+</body>
+</html>

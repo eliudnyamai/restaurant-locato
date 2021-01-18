@@ -1,0 +1,371 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.900340899999996,
+                    -1.2285911
+                ]
+            },
+            "type": "Feature",
+            "id":"01",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Modern twists on classic restaurant. We're part of a larger chain of restaurants .",
+                "name": "eliud's restaurant zimmer",
+                "place_id": "+44 20 1234 5678",
+                "restaurantid": "01",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "perfect!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9105,
+                    -1.1999911
+                ]
+            },
+            "type": "Feature",
+            "id": "02",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Come and try our award-winning cakes and pastries. We're part of a larger chain of restaurant .",
+                "name": "Nyamai's restaurant kasarani",
+                "place_id": "+2547000000",
+                " restaurantid": "02",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 4,
+                        "comment": "Good!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9205,
+                    -1.1999911
+                ]
+            },
+            "type": "Feature",
+            "id": "03",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Whatever the occasion, whether it's a birthday or a wedding, mitau's restaurant has the perfect treat for you. We're part of a larger chain of restaurant  .",
+                "name": "Mitau's restaurant  ",
+                "place_id": "+44 1603 123456",
+                " restaurantid": "03",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Commited Waiters!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9305,
+                    -1.1899911
+                ]
+            },
+            "type": "Feature",
+            "id": "04",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "A gourmet pat that will delight your senses. We're part of a larger chain of restaurants  .",
+                "name": "Josie's restaurant Wimborne",
+                "place_id": "+44 1202 343434",
+                " restaurantid": "04",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 1,
+                        "comment": "Dont recommend!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9206,
+                    -1.1899911
+                ]
+            },
+            "type": "Feature",
+            "id": "05",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Spoil yourself or someone special with our classic pastries. We're part of a larger chain of restaurants  .",
+                "name": "sera's restaurant Kitui",
+                "place_id": "+44 151 444 4444",
+                " restaurantid": "05",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 3,
+                        "comment": "Relaxing environment"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9205,
+                    -1.1819911
+                ]
+            },
+            "type": "Feature",
+            "id": "06",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Come and feast your eyes and tastebuds on our delicious pastries and cakes. We're part of a larger chain of restaurants  .",
+                "name": "winnie's restaurant kastamil",
+                "place_id": "+44 5555 55555",
+                " restaurantid": "06",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 3,
+                        "comment": "Nice place!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9505,
+                    -1.1999911
+                ]
+            },
+            "type": "Feature",
+            "id": "07",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am - 6pm",
+                "description": "Josie's restaurant is family-owned, and our delectable pastries, cakes, and great coffee are renowed. We're part of a larger chain of restaurants .",
+                "name": "peshy's restaurant machacos",
+                "place_id": "+44 29 6666 6666",
+                " restaurantid": "07",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 3,
+                        "comment": "Timely service"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9505,
+                    -1.194
+                ]
+            },
+            "type": "Feature",
+            "id": "08",
+            "properties": {
+                "category": "restaurant",
+                "hours": "8am - 9:30pm",
+                "description": "Oakham's favorite spot for fresh coffee and delicious cakes. We're part of a larger chain of restaurants .",
+                "name": "aider's restaurant karen",
+                "place_id": "+44 7777 777777",
+                " restaurantid": "08",
+                "ratings": [
+                    {
+                        "stars": 4,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "awesome food!"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.9205,
+                    -1.195
+                ]
+            },
+            "type": "Feature",
+            "id": "09",
+            "properties": {
+                "category": "restaurant",
+                "hours": "8am - 9:30pm",
+                "description": "Enjoy freshly brewed coffe, and home baked cakes in our homely restaurant. We're part of a larger chain of restaurants .",
+                "name": "Monique's restaurant Busia",
+                "place_id": "+44 8888 88888",
+                " restaurantid": "09",
+                "ratings": [
+                    {
+                        "stars": 2,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    },
+                    {
+                        "stars": 2,
+                        "comment": "Service Delays"
+                    }
+                ]
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.900340899999996,
+                    -1.199
+                ]
+            },
+            "type": "Feature",
+            "id": "10",
+            "properties": {
+                "category": "restaurant",
+                "hours": "8am - 9:30pm",
+                "description": "A delicious array of pastries with many flavours, and fresh coffee in an snug restaurant. We're part of a larger chain of restaurants .",
+                "name": "anns's restaurant ktown",
+                "place_id": "+44 1010 101010",
+                " restaurantid": "10",
+                "ratings": [
+                    {
+                        "stars": 3,
+                        "comment": "Great! But not many veggie options."
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "My favorite restaurant!"
+                    },
+                    {
+                        "stars": 5,
+                        "comment": "Nice Waiters!"
+                    }
+                ]
+            }
+        }
+    ]
+}
