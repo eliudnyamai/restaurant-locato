@@ -105,7 +105,7 @@ handleLocationError(browserHasGeolocation, infoWindow, pos) {
   displayRestaurantInfo() {
     // Show the information for a store when its marker is clicked.
     this.map.data.addListener("click", (event) => {
-      const apiKey = "AIzaSyBYoyXksTGzLnjJoSolEDmjQf53Ugt-6Rs";
+      const apiKey = "your api key";
       const name = event.feature.getProperty("name");
       const position = event.feature.getGeometry().get();
       const ratings = event.feature.getProperty("ratings");
